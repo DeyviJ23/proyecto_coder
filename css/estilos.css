@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Bebas+Neue&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background: #000000;
+    background-color: #f9f8fb;
+    background-image: url("data:image/svg+xml,%3Csvg width='32' height='26' viewBox='0 0 32 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14 0v3.994C14 7.864 10.858 11 7 11c-3.866 0-7-3.138-7-7.006V0h2v4.005C2 6.765 4.24 9 7 9c2.756 0 5-2.236 5-4.995V0h2zm0 26v-5.994C14 16.138 10.866 13 7 13c-3.858 0-7 3.137-7 7.006V26h2v-6.005C2 17.235 4.244 15 7 15c2.76 0 5 2.236 5 4.995V26h2zm2-18.994C16 3.136 19.142 0 23 0c3.866 0 7 3.138 7 7.006v9.988C30 20.864 26.858 24 23 24c-3.866 0-7-3.138-7-7.006V7.006zm2-.01C18 4.235 20.244 2 23 2c2.76 0 5 2.236 5 4.995v10.01C28 19.765 25.756 22 23 22c-2.76 0-5-2.236-5-4.995V6.995z' fill='%235df15d' fill-opacity='0.12' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+
+
+h1, h2, h3 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.contenedorinicial{
+    width: 90%;
+    margin: auto;
+}
+
+.navegadorinicial{
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+    
+}
+
+.imglogo{
+    width: 50px;
+}
+
+.navegadorinicial ul{
+    display: flex;
+}
+
+.navegadorinicial ul li{
+    padding: 50px;
+}
+
+.backgroundindex{
+    background-image: url(./../assets/images/fondo1.png);
+    width: 90%;
+    margin: auto;
+    height: 350px;
+    padding-top: 225px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.3rem;
+}
+
+.backgroundnosotros, .backgroundservicios, .backgroundshop, .backgroundunirse, .backgroundcontacto{
+    background-image: url(./../assets/images/imgreferencia.webp);
+    width: 90%;
+    margin: auto;
+    height: 350px;
+    padding-top: 225px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.3rem;
+}
+
+.tarjetas{
+    width: 90%;
+    height: 65vh;
+    margin: auto;
+    margin-top: 75px;
+    display: flex;
+}
+
+.tarjetasservicios{
+    width: 90%;
+    height: 185vh;
+    margin: auto;
+    margin-top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tarjetassshop{
+    width: 90%;
+    height: 125vh;
+    margin: auto;
+    margin-top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tarjetaserviciobanio, .tarjetaservicioclinic, .tarjetaserviciohosp, .tarjetaserviciocrem, .tarjetaservicioshop{
+    border: 2px solid rgb(0, 0, 0, 0.15);
+    width: 554px;
+    height: 400px;
+    margin: auto;
+}
+
+.tarjetassshopalm, .tarjetassshopacc, .tarjetassshopciu, .tarjetassshopotr{
+    border: 2px solid rgb(0, 0, 0, 0.15);
+    width: 554px;
+    height: 425px;
+    margin: auto;
+}
+
+.btncompra{
+    margin-top: 10px;
+    margin-left: 50%;
+}
+
+.tarjetaservicio, .tarjetacontacto{
+    border: 2px solid rgb(0, 0, 0, 0.15);
+}
+
+.tarjetashop{
+    border: 2px solid rgb(0, 0, 0, 0.15);
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.imgtarjetaservicio, .imgtarjetashop, .imgtarjetacontacto{
+    height: 350px;
+    width: 425px;
+}
+
+.imgserviciobanio, .imgservicioclinic, .imgserviciohosp, .imgserviciocrem, .imgservicioshop, .imgalimento, .imgaccesorios, .imgcuidado, .imgotros{
+    height: 300px;
+    width: 550px;
+}
+
+.historia, .info, .pacientes, .ubicaciones, .formulariounirse{
+    width: 90%;
+    margin: auto;
+    margin-top: 75px;
+}
+
+.redes{
+    width: 90%;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.imghisto{
+    width: 100%;
+    height: 375px;
+}
+
+.imgpacientes{
+    width: 30%;
+    height: 300px;
+    margin-top: 30px;
+}
+
+form div {
+    margin-top: 15px;
+    display: grid;
+    justify-content: center;
+}
