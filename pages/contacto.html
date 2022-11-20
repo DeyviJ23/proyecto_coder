@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="./../css/estilos.css">
 </head>
 <body>
@@ -31,31 +32,38 @@
         <section class="backgroundcontacto">
 
             <h1>Utiliza el mapa para ubicar nuestras veterinarias disponibles</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quo fuga voluptates debitis suscipit incidunt 
-                officiis non, porro ratione necessitatibus doloribus quasi nostrum et quia dignissimos eveniet cumque? Ut, ipsum.
-                Porro ratione necessitatibus doloribus quasi nostrum et quia dignissimos eveniet cumque? Ut, ipsum.
-            </p>
-
+            
         </section>
 
         <section class="ubicaciones">
 
             <div>
-            <img src="" alt="iconopata">
-            <h3>Sucursal - Carabayllo</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quo fuga voluptates debitis suscipit incidunt 
-                officiis non, porro ratione necessitatibus doloribus quasi nostrum et quia dignissimos eveniet cumque? Ut, ipsum.
-                Porro ratione necessitatibus doloribus quasi nostrum et quia dignissimos eveniet cumque? Ut, ipsum.
-            </p>
+                <div class="sucursal">
+                    <lord-icon
+                        src="https://cdn.lordicon.com/jaghjelc.json"
+                        trigger="hover"
+                        style="width:75px;height:75px">
+                    </lord-icon>
+                    <h3>Sucursal - Carabayllo</h3>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quo fuga voluptates debitis suscipit incidunt 
+                    officiis non, porro ratione necessitatibus doloribus quasi nostrum et quia dignissimos eveniet cumque? Ut, ipsum.
+                    Porro ratione necessitatibus doloribus quasi nostrum et quia dignissimos eveniet cumque? Ut, ipsum.
+                </p>
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49225.96093234549!2d-77.10127256083824!3d-11.877869376304181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105d0bf2b558247%3A0xbef510243c2e7279!2sMascotas%20Sin%20Fronteras%20-%20Veterinaria!5e0!3m2!1ses-419!2spe!4v1665936131165!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49225.96093234549!2d-77.10127256083824!3d-11.877869376304181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105d0bf2b558247%3A0xbef510243c2e7279!2sMascotas%20Sin%20Fronteras%20-%20Veterinaria!5e0!3m2!1ses-419!2spe!4v1665936131165!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
             <div>
-                <img src="" alt="iconopata">
-                <h3>Sucursal - Miraflores</h3>
+                <div class="sucursal">
+                    <lord-icon
+                        src="https://cdn.lordicon.com/jaghjelc.json"
+                        trigger="hover"
+                        style="width:75px;height:75px">
+                    </lord-icon>
+                    <h3>Sucursal - Miraflores</h3>
+                </div>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quo fuga voluptates debitis suscipit incidunt 
                     officiis non, porro ratione necessitatibus doloribus quasi nostrum et quia dignissimos eveniet cumque? Ut, ipsum.
@@ -72,14 +80,24 @@
     <footer>
 
         <section class="redes">
-            <h3>Visita Nuestras Redes</h3>
-            <a href="https://www.facebook.com/munaysinfronteras" target="_blank">Facebook</a>
-            <a href="https://twitter.com/munaype?t=EvME2xn9Ntnb4CRUx1Q_xg&s=09&fbclid=IwAR03USQxc9M2cW1KnP_2OgFaQG_YQ0CqpgnLypqQNorr8hDtONRKzRQSL_Y" target="_blank">Twitter</a>
-            <a href="https://www.instagram.com/munaysinfronteras/?fbclid=IwAR0MI5YX2p93dqPBezduITAgxArT-d5oFBXCu9lSrTLkrdFrVnISP92HuG8" target="_blank">Instagram</a>
-            <p>Todos los derechos reservados</p>
+            <h3 class="textfoot">Visita Nuestras Redes</h3>
+            <div class="social">
+                <a href="https://www.instagram.com/munaysinfronteras/?fbclid=IwAR0MI5YX2p93dqPBezduITAgxArT-d5oFBXCu9lSrTLkrdFrVnISP92HuG8" target="_blank">
+                    <i class="ri-instagram-line icon"></i>
+                </a>
+                <a href="https://www.facebook.com/munaysinfronteras" target="_blank">
+                    <i class="ri-facebook-circle-fill icon"></i>
+                </a>
+                <a href="https://twitter.com/munaype?t=EvME2xn9Ntnb4CRUx1Q_xg&s=09&fbclid=IwAR03USQxc9M2cW1KnP_2OgFaQG_YQ0CqpgnLypqQNorr8hDtONRKzRQSL_Y" target="_blank">
+                    <i class="ri-twitter-line icon"></i>
+                </a>
+            </div>
+            <p class="textfoot">Copyright © 2022 | Todos los derechos reservados</p>
         </section>
         
     </footer>
-    
+
+    <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+
 </body>
 </html>
