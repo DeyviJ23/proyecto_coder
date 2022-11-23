@@ -20,20 +20,19 @@ h1, h2, h3 {
     font-family: 'Bebas Neue', cursive;
 }
 
-a {
-    text-decoration: none;
-}
-
-ul{
-    list-style: none;
-}
-
-.contenedorinicial{
+.divind{
+    padding-top: 2rem;
     width: 90%;
     margin: auto;
 }
 
+.contenedorinicial{
+    width: 90%;
+    padding: 0;
+}
+
 .navegadorinicial{
+    background-color: #285AEB;
     font-size: 1rem;
     display: flex;
     justify-content: space-between;
@@ -45,10 +44,12 @@ ul{
 
 .imglogo{
     width: 50px;
+    padding: 0;
 }
 
 .navegadorinicial ul{
     display: flex;
+    background-color: #16a9e8;
 }
 
 .navegadorinicial ul li{
@@ -59,8 +60,8 @@ ul{
     background-image: url(./../assets/images/fondo1.png);
     width: 90%;
     margin: auto;
-    height: 400px;
-    padding-top: 250px;
+    height: 25rem;
+    padding-top: 25px;
     padding-left: 25px;
     padding-right: 25px;
     background-repeat: no-repeat;
@@ -70,10 +71,11 @@ ul{
 
 .backgroundnosotros{
     background-image: url(./../assets/images/nosotrofondo2.jpeg);
+    background-position: center;
     width: 90%;
     margin: auto;
-    height: 400px;
-    padding-top: 250px;
+    height: 25rem;
+    padding-top: 25px;
     padding-left: 25px;
     padding-right: 25px;
     background-repeat: no-repeat;
@@ -86,7 +88,7 @@ ul{
     width: 90%;
     margin: auto;
     height: 400px;
-    padding-top: 250px;
+    padding-top: 25px;
     padding-left: 25px;
     padding-right: 25px;
     background-repeat: no-repeat;
@@ -99,7 +101,7 @@ ul{
     width: 90%;
     margin: auto;
     height: 400px;
-    padding-top: 250px;
+    padding-top: 25px;
     padding-left: 25px;
     padding-right: 25px;
     background-repeat: no-repeat;
@@ -112,7 +114,7 @@ ul{
     width: 90%;
     margin: auto;
     height: 400px;
-    padding-top: 250px;
+    padding-top: 25px;
     padding-left: 25px;
     padding-right: 25px;
     background-repeat: no-repeat;
@@ -122,10 +124,11 @@ ul{
 
 .backgroundcontacto{
     background-image: url(./../assets/images/dsa.PNG);
+    background-position: center;
     width: 90%;
     margin: auto;
     height: 400px;
-    padding-top: 225px;
+    padding-top: 25px;
     padding-left: 25px;
     padding-right: 25px;
     background-repeat: no-repeat;
@@ -135,17 +138,13 @@ ul{
 
 .tarjetas{
     width: 90%;
-    height: 65vh;
     margin: auto;
-    margin-top: 75px;
-    display: flex;
+    margin-top: 4rem;
 }
 
 .tarjetasservicios{
-    width: 90%;
-    height: 185vh;
     margin: auto;
-    margin-top: 75px;
+    margin-top: 5rem;
     display: flex;
     flex-wrap: wrap;
 }
@@ -162,8 +161,9 @@ ul{
 .tarjetaserviciobanio, .tarjetaservicioclinic, .tarjetaserviciohosp, .tarjetaserviciocrem, .tarjetaservicioshop{
     border: 2px solid rgb(0, 0, 0, 0.15);
     width: 554px;
-    height: 400px;
+    height: 500px;
     margin: auto;
+    margin-bottom: 3rem;
 }
 
 .tarjetassshopalm, .tarjetassshopacc, .tarjetassshopciu, .tarjetassshopotr{
@@ -188,9 +188,9 @@ ul{
     margin-right: 3%;
 }
 
-.imgtarjetaservicio, .imgtarjetashop, .imgtarjetacontacto{
-    height: 350px;
-    width: 425px;
+.imgtarjeta{
+    height: 21.875rem;
+    width: 100%;
 }
 
 .imgserviciobanio, .imgservicioclinic, .imgserviciohosp, .imgserviciocrem, .imgservicioshop, .imgalimento, .imgaccesorios, .imgcuidado, .imgotros{
@@ -198,10 +198,10 @@ ul{
     width: 550px;
 }
 
-.historia, .info, .pacientes, .ubicaciones, .formulariounirse{
+.historia, .info, .ubicaciones, .formulariounirse{
     width: 90%;
     margin: auto;
-    margin-top: 75px;
+    margin-top: 3.5rem;
 }
 
 .imghisto{
@@ -287,4 +287,54 @@ form div {
 
 .sucursal h3{
     margin-top: 2.7rem
+}
+
+.pacientes{
+    width: 90%;
+    margin: auto;
+}
+
+.pacientes .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.pacientes h2 {
+    font-weight: 400;
+}
+  /* rtl:begin:ignore */
+.pacientes .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+.borroso{
+    backdrop-filter: blur(5px);
+}
+
+.bgBotonVerde{
+    background-color: rgba(157, 244, 163, 0.874);
+}
+
+.bienvenida{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center
+}
+
+.bienvenida h2{
+    padding-top: 5rem;
+}
+
+.info li{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.info ul{
+    margin-bottom: 4rem;
+}
+
+.pacientes p{
+    margin-bottom: 4rem;
 }

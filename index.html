@@ -14,61 +14,87 @@
 <body>
     
     <header>
-        <div class="contenedorinicial">
-            <nav class="navegadorinicial">
-                <img class="imglogo animate__animated animate__fadeIn animate__slower	3s " src="./assets/images/LogoMunay.png" alt="logo">
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="./pages/nosotros.html">Sobre Nosotros</a></li>
-                    <li><a href="./pages/servicios.html">Servicios</a></li>
-                    <li><a href="./pages/shop.html">Pett Shop</a></li>
-                    <li><a href="./pages/unirse.html">Unirse</a></li>
-                    <li><a href="./pages/contacto.html">Contacto</a></li>
-                </ul>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid contenedorinicial">
+                  <a class="navbar-brand " href="#"><img class="imglogo animate__animated animate__fadeIn animate__slower	3s " src="./assets/images/LogoMunay.png" alt="logo"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                      <li class="nav-item px-5">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item px-5">
+                        <a class="nav-link active" aria-current="page" href="./pages/nosotros.html">Sobre Nosotros</a>
+                      </li>
+                      <li class="nav-item px-5">
+                        <a class="nav-link active" aria-current="page" href="./pages/servicios.html">Servicios</a>
+                      </li>
+                      <li class="nav-item px-5">
+                        <a class="nav-link active" aria-current="page" href="./pages/shop.html">Pett Shop</a>
+                      </li>
+                      <li class="nav-item px-5">
+                        <a class="nav-link active" aria-current="page" href="./pages/unirse.html">Unirse</a>
+                      </li>
+                      <li class="nav-item px-5">
+                        <a class="nav-link active" aria-current="page" href="./pages/contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
             </nav>
-        </div>
     </header>
 
     <main>
 
         <section class="backgroundindex">
-
             <h1>Veterinaria Munay Sin Fronteras</h1>
-            <p>
-                Damos un cuidado especial a tus egreidos, ahora más que nunca reforzamos nuestra creencia que la vida junto nuestras mascotas es mucho mejor.
-                Brindamos un servicio de la mejor calidad porque sabemos lo importante que es tu mascota para ti, si tu mascota esta sana, tú estas feliz.
-            </p>
-
         </section>
 
-        <section class="tarjetas">
-
-            <div data-aos="zoom-in-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" class="tarjetaservicio">
-                <img class="imgtarjetaservicio" src="./assets/images/imgServi.PNG" alt="imagenservicio">
-                <h2>Contamos con gran variedad de servicios</h2>
-                <p>
-                    Visita el apartado de servicios para enterarte de nuestra gran variedad de servicios.
-                </p>
+        <div class="divind">
+          <div class="bienvenida">
+            <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_kehwtvbf.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop autoplay></lottie-player>
+            <h2>
+              ¡Bienvenido a Veterinaria Munay!
+            </h2>
+            <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_sYVZ3n.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop autoplay></lottie-player>
+          </div>
+        <p>
+          
+          Damos un cuidado especial a tus egreidos, ahora más que nunca reforzamos nuestra creencia que la vida junto nuestras mascotas es mucho mejor.
+          Brindamos un servicio de la mejor calidad porque sabemos lo importante que es tu mascota para ti, si tu mascota esta sana, tú estas feliz.
+        </p>
+        </div>
+        <div class="tarjetas row row-cols-1 row-cols-md-3 g-4">
+            <div data-aos="zoom-in-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" class="col">
+              <div class="card h-100">
+                <img src="./assets/images/imgServi.PNG" class="card-img-top imgtarjeta" alt="imagenservicio">
+                <div class="card-body">
+                  <h5 class="card-title">Contamos con gran variedad de servicios</h5>
+                  <p class="card-text">Visita el apartado de servicios para enterarte de nuestra gran variedad de servicios.</p>
+                </div>
+              </div>
             </div>
-
-            <div data-aos="zoom-in-up" data-aos-duration="500" data-aos-easing="ease-in-sine" class=" tarjetashop">
-                <img class="imgtarjetashop" src="./assets/images/imgShop.webp" alt="imagenshop">
-                <h2>Visita nuestra pettshop</h2>
-                <p>
-                    Tenemos de todo para tus mascotas, la mejor y más variada tienda de complementos, accesorios y juguetes para mascotas.
-                </p>
+            <div data-aos="zoom-in-up" data-aos-duration="500" data-aos-easing="ease-in-sine" class="col">
+              <div class="card h-100">
+                <img src="./assets/images/imgShop.webp" class="card-img-top imgtarjeta" alt="imagenshop">
+                <div class="card-body">
+                  <h5 class="card-title">Visita nuestra pettshop</h5>
+                  <p class="card-text">Tenemos de todo para tus mascotas, la mejor y más variada tienda de complementos, accesorios y juguetes para mascotas.</p>
+                </div>
+              </div>
             </div>
-
-            <div data-aos="zoom-in-left" data-aos-duration="1500" data-aos-easing="ease-in-sine" class="tarjetacontacto">
-                <img class="imgtarjetacontacto" src="./assets/images/imgContacto.jpg" alt="imagencontacto">
-                <h2>Contactanos</h2>
-                <p>
-                    Puedes escribirnos por alguna inquietud que tengas o para hacernos llegar tus sugerencias.
-                </p>
+            <div data-aos="zoom-in-left" data-aos-duration="1500" data-aos-easing="ease-in-sine" class="col">
+              <div class="card h-100">
+                <img src="./assets/images/imgContacto.jpg" class="card-img-top imgtarjeta" alt="imagencontacto">
+                <div class="card-body">
+                  <h5 class="card-title">Contactanos</h5>
+                  <p class="card-text">Puedes escribirnos por alguna inquietud que tengas o para hacernos llegar tus sugerencias.</p>
+                </div>
+              </div>
             </div>
-
-        </section>
-
+          </div>
     
     </main>
 
@@ -109,6 +135,7 @@
         AOS.init();
     </script>
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </body>
 
 </html>
