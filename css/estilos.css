@@ -20,7 +20,8 @@ body {
 
 .titulofoot {
     font-family: "Bebas Neue", cursive;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    margin-bottom: 0;
 }
 
 .divind{
@@ -87,7 +88,7 @@ body {
 }
 
 .backgroundservicios{
-    background-image: url(./../assets/images/Xh2JAEVs_2x.jpg);
+    background-image: url(./../assets/images/fondoo.jpg);
     width: 90%;
     margin: auto;
     height: 400px;
@@ -101,6 +102,7 @@ body {
 
 .backgroundshop{
     background-image: url(./../assets/images/shop-transformed.png);
+    background-position: center;
     width: 90%;
     margin: auto;
     height: 400px;
@@ -143,22 +145,8 @@ body {
     width: 90%;
     margin: auto;
     margin-top: 4rem;
-}
-
-.tarjetasservicios{
-    margin: auto;
-    margin-top: 5rem;
-    display: flex;
     flex-wrap: wrap;
-}
-
-.tarjetassshop{
-    width: 90%;
-    height: 125vh;
-    margin: auto;
-    margin-top: 75px;
-    display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .tarjetaserviciobanio, .tarjetaservicioclinic, .tarjetaserviciohosp, .tarjetaserviciocrem, .tarjetaservicioshop{
@@ -218,6 +206,11 @@ body {
     margin-top: 30px;
 }
 
+.imgcardshop{
+    height: 350px;
+    width: 100%;
+}
+
 form div {
     margin-top: 15px;
     display: grid;
@@ -235,8 +228,9 @@ form div {
 
 .icon{
     display: inline-block; 
-    font-size: 2.5rem;
-    border: 3px solid rgba(157, 244, 163, 0.874);
+    width: 100%;
+    height: 100%;
+    border: 4px solid rgba(157, 244, 163, 0.874);
     border-radius: 5px;
 }
 
@@ -256,11 +250,18 @@ form div {
     color: #16a9e8;
 }
 
+.ri-map-pin-2-fill{
+    color: rgba(50, 239, 63, 0.874);
+}   
+
+.ri-phone-fill{
+    color: rgba(50, 239, 63, 0.874);
+}
+
 .social{
-    width:200px;
+    width:240px;
     display:flex;
     padding: 0.3rem;
-    border-radius:10px;
     margin: auto;
     text-align: center;
 }
@@ -289,7 +290,23 @@ form div {
 }
 
 .sucursal h3{
-    margin-top: 2.7rem
+    margin-top: 2.1rem
+}
+
+.tarjetasuc{
+    border: 2px solid rgba(210, 216, 210, 0.874);
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin-top: 3.5rem;
+}
+
+.tarjetasuc ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.tarjetasuc ul li{
+    margin-bottom: 1rem;
 }
 
 .pacientes{
@@ -316,7 +333,19 @@ form div {
 }
 
 .bgBotonVerde{
-    background-color: rgba(157, 244, 163, 0.874);
+    background-color: rgba(82, 202, 90, 0.874);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: rgba(82, 202, 90, 0.874);;
+    border-color: rgba(180, 239, 183, 0.874);
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgba(27, 194, 38, 0.874);
+    border-color: rgba(82, 202, 90, 0.874);
 }
 
 .bienvenida{
@@ -348,7 +377,7 @@ form div {
         margin: 0;
     }
 
-    .backgroundindex, .backgroundnosotros{
+    .backgroundindex, .backgroundnosotros, .backgroundservicios, .backgroundshop, .backgroundunirse, .backgroundcontacto{
         width: 100%;
         margin: 0;
     }
@@ -369,6 +398,7 @@ form div {
     }
 
     .divind{
+        padding-top: 0;
         width: 100%;
         margin-top: 0;
     }
@@ -376,6 +406,11 @@ form div {
     .redes{
         width: 100%;
         margin-top: 2rem;
+    }
+
+    .bienvenida h2{
+        padding-top: 3.5rem;
+        text-align: center;
     }
 
 }
