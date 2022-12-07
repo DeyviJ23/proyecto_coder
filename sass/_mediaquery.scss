@@ -1,0 +1,57 @@
+@media screen and (max-width: 1024px) {
+    .contenedorinicial{
+        width: $espaciotot;
+        margin: 0;
+    }
+
+    .backgroundindex, .backgroundnosotros, .backgroundservicios, .backgroundshop, .backgroundunirse, .backgroundcontacto{
+        width: $espaciotot;
+        margin: 0;
+    }
+
+    .historia{
+        width: $espaciotot;
+        margin: 0;
+        .imghisto{
+            width: $espaciotot;
+            margin: 0;
+        }
+    
+    }
+
+    .tarjetas{
+        margin-top: auto;
+        margin-bottom: 2.5rem;
+    }
+
+    .tarjetasserv{
+        margin-top: auto;
+        margin-bottom: 2.5rem;
+    }
+
+    .tarjetasshop{
+        margin-top: auto;
+        margin-bottom: 2.5rem;
+    }
+
+    .divind{
+        padding-top: 0;
+        width: $espaciotot;
+        margin-top: 0;
+        .bienvenida{
+            margin-top: 2.5rem;
+            display: flex;
+            justify-content: $centrado;
+            h2{
+                padding-top: 3.5rem;
+                text-align: $centrado;
+            }
+        }
+    }
+
+    .redes{
+        width: $espaciotot;
+        margin-top: 2rem;
+    }
+
+}

@@ -1,0 +1,30 @@
+@mixin tam-esp-back($margback, $hback){
+    width: $espaciomax;
+    margin: $margback;
+    height: $hback;
+    padding: 25px;
+}
+
+@mixin propback ($backimage){
+    background-image: $backimage;
+    background-repeat: no-repeat;
+    background-size: $imagenc;
+    font-size: 2rem;
+}
+
+@mixin tam-esp-tarj($margtarj){
+    width: $espaciomax;
+    margin: $margtarj;
+    margin-top: $margin3r+1;
+}
+
+@mixin proptarj ($flexw){
+    flex-wrap: $flexw;
+    justify-content: $centrado;
+}
+
+@mixin prophovtarj($propbord){
+    transition: 1s;
+    border: $propbord;
+    box-shadow: inset 0 0 10px $colorbord, 0 0 30px $colorbord;
+}

@@ -4,18 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unirse</title>
+    <title>Munay - Unirse</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="./../assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./../assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./../assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./../assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./../assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./../assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./../assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./../assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./../assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./../assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./../assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./../assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./../assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./../assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./../assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="./../css/bootstrap.min.css">
     <link rel="stylesheet" href="./../css/estilos.css">
+    <meta name="keywords" content="inscripción, club, membresía, miembros">
+    <meta name="description" content="Unete a la familia Munay para acceder a todo el catalogo beneficios que ofrecemos.">
 </head>
 <body>
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid contenedorinicial">
-                <a class="navbar-brand " href="./../index.html"><img class="imglogo animate__animated animate__fadeIn animate__slower	3s " src="./../assets/images/LogoMunay.png" alt="logo"></a>
+                <a class="navbar-brand " href="./../index.html"><img class="imglogo animate__animated animate__fadeIn animate__slower	3s " src="./../assets/images/LogoMunay.png" alt="LogoMunay"  loading="lazy"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -51,40 +70,67 @@
             <h1 class="tituloinicial">Unete a la Familia</h1>
         </section>
 
-        <section class="formulariounirse">
+        <section class="escritos">
+            <h2>
+              Te invitamos a formar parte de nuestra familia
+            </h2>
+            <p>
+              Únete a la familia convirtiendote en un miembro oficial de Munay con un pago mensual, y obtendras todos los
+              beneficios que podemos ofrecerte.
+            </p>
+          </section>
 
-            <form>
-                <div>
-                    <input type="text" placeholder="Nombre" required>
+        <section class="container-fluid my-5">
+            <div class="row d-flex justify-content-center align-items-center flex-sm-row flex-column-reverse">
+                <div class="col-8 col-sm-6 col-md-4 col-lg-3 formImagenBs">
                 </div>
-                <div>
-                    <input type="text" placeholder="Nombre Mascota" required>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-center py-3">
+                    <form class="col-12">
+                        <div class="form-floating mb-3">
+                            <input type="text" placeholder="Nombre" required>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" placeholder="Nombre Mascota" required>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" placeholder="Correo" required>
+                        </div>
+                        <div class="form mb-3">
+                            <select class="form-select form-control" aria-label="Default select example required">
+                                <option selected>Medio de pago</option>
+                                <option value="1">Débito</option>
+                                <option value="2">Crédito</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="plan1">Plan Premium
+                                <input id="plan1" name="plan" type="radio" value="Premium" checked >
+                            </label>
+                            <label for="plan2">Plan Standard
+                                <input id="plan2" name="plan" type="radio" value="Standard" >
+                            </label>
+                        </div>
+                        <div class="form">
+                            <button type="submit" class="btn btn-primary mt-3 pt-2" data-bs-toggle="modal" data-bs-target="#enviado">Unirse</button>
+                        </div>
+                      </form>
                 </div>
-                <div>
-                    <input type="email" placeholder="Correo" required>
-                </div>
-                <div>
-                    <select>
-                        <option value="">--Seleccione Medio de Pago--</option>
-                        <option value="1">Debito</option>
-                        <option value="2">Credito</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="plan1">Plan Premium
-                        <input id="plan1" name="plan" type="radio" value="Premium" checked >
-                    </label>
-                    <label for="plan2">Plan Standard
-                        <input id="plan2" name="plan" type="radio" value="Standard" >
-                    </label>
-                </div>
-                <div>
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Limpiar">
-                </div>
-            </form>
-
+            </div>
         </section>
+
+        <div class="container-fluid d-flex justify-content-center">
+            <section class="card border-secondary mb-3 col-12 col-sm-9 wow fadeInUp">
+                <div class="card-header pt-3">
+                    <h3>*Recordatorio</h3>
+                </div>
+                <div class="card-body text-secondary">
+                    <p class="card-text">
+                        Recuerda que al formar parte de la familia Munay le brindas a tu mascota un servicio de atencion 24/7 tanto presencialmente como virtualmente
+                        con los mejores especialistas, tambien recuerda que ayudas a animales sin hogar, ya que, un porcentaje de los fondos recaudados mensualmente
+                        son destinados a fundaciones y albergues de animales.
+                </div>
+            </section>                    
+        </div>
 
     </main>
 

@@ -1,0 +1,216 @@
+.tarjetas{
+    @include tam-esp-tarj(auto);
+    @include proptarj (wrap);
+    .card{
+        &:hover {
+        @include prophovtarj(2px solid white);
+        }
+        .imgtarjeta{
+        height: 21.875rem;
+        width: $espaciotot;
+        }
+        .card-body{
+            margin: auto;
+            h3{
+                font-size: 1.25rem;
+            }
+        }
+    }
+}
+
+.historia{
+    width: $espaciomax;
+    margin: auto;
+    margin-top: $margin3r+0.5;
+    .imghisto{
+        width: $espaciotot;
+        height: 375px;
+    }
+}
+
+.info{
+    width: $espaciomax;
+    margin: auto;
+    margin-top: $margin3r+0.5;
+    ul{
+        margin-bottom: $margin3r+1;
+        li{
+            margin-top: $margin3r/2;
+            margin-bottom: $margin3r/2;
+            list-style-type: '🐾';
+            padding-left: 1rem;
+        }
+    }
+}
+
+.tarjetasserv{
+    @include tam-esp-tarj(auto);
+    @include proptarj (wrap);
+    .imgtarjeta{
+        height: 21.875rem;
+        width: $espaciotot;
+    }
+}
+
+.tarjetasshop{
+    @include tam-esp-tarj(auto);
+    @include proptarj (wrap);
+    .card{
+        margin: auto;
+        margin-bottom: 2rem;
+        width: 93%;
+        .imgcardshop{
+            height: 350px;
+            width: $espaciotot;
+        }
+        .card-body{
+            h3{
+                font-size: 1.25rem;
+            }
+        }
+    }
+}
+
+
+
+.pacientes{
+    width: $espaciomax;
+    margin: auto;
+    .col-lg-4 {
+        margin-bottom: $margin3r/2;
+        text-align: $centrado;
+        .borroso{
+            backdrop-filter: blur(5px);
+            h3 {
+                margin-top: 0.5rem;
+                font-size: 1.5rem;
+            }
+            p {
+                margin-right: .75rem;
+                margin-left: .75rem;
+            }
+        }
+    }
+}
+
+form {
+    div {
+        margin-top: 15px;
+        display: grid;
+        justify-content: $centrado;
+        
+    }
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: $colortonob1;
+    border-color: $colortonob1;
+    &:hover {
+        color: #fff;
+        background-color: $colortonob2;
+        border-color: $colortonob2;
+    }
+}
+
+.divind{
+    padding-top: 2rem;
+    width: $espaciomax;
+    margin: auto;
+    .bienvenida{
+        margin-top: 2.5rem;
+        display: flex;
+        justify-content: $centrado;
+        h2{
+            padding-top: 5rem;
+        }
+    }
+}
+
+.formImagenBs {
+    background-image: url(../assets/images/clinica_540x.webp);
+    background-size: cover;
+    min-height: 400px;
+    border-radius: 10px; 
+}
+
+.escritos {
+    width: 90%;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 0rem;
+}
+
+.ubicaciones{
+    width: $espaciomax;
+    margin: auto;
+    margin-top: $margin3r+0.5;
+    .tarjetasuc{
+        border: 2px solid rgba(210, 216, 210, 0.874);
+        border-radius: $borderadio;
+        padding: 0.5rem 1rem;
+        margin-top: $margin3r+0.5;
+        .sucursal{
+            display: flex;
+            h3{
+                margin-top: 2.1rem
+            }
+        }
+        ul{
+            list-style-type: $estilo;
+            padding: 0;
+            li{
+                margin-bottom: 1rem;
+                .ri-map-pin-2-fill{
+                    color: $colortonoic;
+                }
+                .ri-phone-fill{
+                    color: $colortonoic;
+                }
+            }
+        }
+    }
+}
+
+.backgroundindex{
+    @include propback(url(./../assets/images/fondo1.png));
+    @include tam-esp-back(auto, 25rem);
+}
+
+.backgroundnosotros{
+    @include propback(url(./../assets/images/nosotrofondo2.jpeg));
+    @include tam-esp-back(auto, 25rem);
+    background-position: $centrado;
+}
+
+.backgroundservicios{
+    @include propback(url(./../assets/images/fondoo.jpg));
+    @include tam-esp-back(auto, 25rem);
+}
+
+.backgroundshop{
+    @include propback(url(./../assets/images/shop-transformed.png));
+    @include tam-esp-back(auto, 25rem);
+    background-position: $centrado;
+}
+
+.backgroundunirse{
+    @include propback(url(./../assets/images/unirse.PNG));
+    @include tam-esp-back(auto, 25rem);
+}
+
+.backgroundcontacto{
+    @include propback(url(./../assets/images/dsa.PNG));
+    @include tam-esp-back(auto, 25rem);
+    background-position: $centrado;
+}
+
+.tituloinicial {
+    font-family: $fuentetitulo;
+    font-size: 3rem;
+    color: #ffffff;
+    font-family: impact;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+    -webkit-text-fill-color: #ffffff;
+    -webkit-text-stroke: 3px $colorbord;
+}

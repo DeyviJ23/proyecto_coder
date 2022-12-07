@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans&family=Bebas+Neue&display=swap");
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background: #000000;
+    background-color: #f9f8fb;
+    background-image: url("data:image/svg+xml,%3Csvg width='32' height='26' viewBox='0 0 32 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14 0v3.994C14 7.864 10.858 11 7 11c-3.866 0-7-3.138-7-7.006V0h2v4.005C2 6.765 4.24 9 7 9c2.756 0 5-2.236 5-4.995V0h2zm0 26v-5.994C14 16.138 10.866 13 7 13c-3.858 0-7 3.137-7 7.006V26h2v-6.005C2 17.235 4.244 15 7 15c2.76 0 5 2.236 5 4.995V26h2zm2-18.994C16 3.136 19.142 0 23 0c3.866 0 7 3.138 7 7.006v9.988C30 20.864 26.858 24 23 24c-3.866 0-7-3.138-7-7.006V7.006zm2-.01C18 4.235 20.244 2 23 2c2.76 0 5 2.236 5 4.995v10.01C28 19.765 25.756 22 23 22c-2.76 0-5-2.236-5-4.995V6.995z' fill='%235df15d' fill-opacity='0.12' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.tituloinicial {
+    font-family: "Bebas Neue", cursive;
+    font-size: 3rem;
+}
+
+.contenedorinicial{
+    width: 90%;
+    padding: 0;
+}
+
+.imglogo{
+    width: 50px;
+    padding: 0;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: rgba(82, 202, 90, 0.874);;
+    border-color: rgba(180, 239, 183, 0.874);
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgba(27, 194, 38, 0.874);
+    border-color: rgba(82, 202, 90, 0.874);
+}
+
+.divind{
+    padding-top: 2rem;
+    width: 90%;
+    margin: auto;
+}
+
+.divind .bienvenida{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center
+}
+
+.divind .bienvenida h2{
+    padding-top: 5rem;
+}
+
+.redes{
+    width: 90%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.redes .titulofoot {
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.redes .social{
+    width:240px;
+    display:flex;
+    padding: 0.3rem;
+    margin: auto;
+    text-align: center;
+}
+
+.social >a{
+    width:25%;
+    font-size:2rem;
+    box-shadow: rgb(204,219,232) 3px 3px 6px 0px, rgba(255,255,255) -3px -3px 6px 1px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    background:#fff;
+    margin:10px;
+    transition: 0.4s;
+}
+
+.social >a:hover{
+   transform:translateY(-10px);
+   color: var(--color);
+}
+
+.redes .social .icon{
+    display: inline-block; 
+    width: 100%;
+    height: 100%;
+    border: 4px solid rgba(157, 244, 163, 0.874);
+    border-radius: 5px;
+}
+
+.redes .social .ri-instagram-line{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.redes .social .ri-facebook-circle-fill{
+    color: #3b5998;
+    
+}
+
+.redes .social .ri-twitter-line{
+    color: #16a9e8;
+}
+
+.backgroundindex{
+    background-image: url(./../assets/images/fondo1.png);
+    width: 90%;
+    margin: auto;
+    height: 25rem;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.3rem;
+}
+
+.backgroundnosotros{
+    background-image: url(./../assets/images/nosotrofondo2.jpeg);
+    background-position: center;
+    width: 90%;
+    margin: auto;
+    height: 25rem;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.3rem;
+}
+
+.backgroundservicios{
+    background-image: url(./../assets/images/fondoo.jpg);
+    width: 90%;
+    margin: auto;
+    height: 400px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.3rem;
+}
+
+.backgroundshop{
+    background-image: url(./../assets/images/shop-transformed.png);
+    background-position: center;
+    width: 90%;
+    margin: auto;
+    height: 400px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.3rem;
+}
+
+.backgroundunirse{
+    background-image: url(./../assets/images/unirse.PNG);
+    width: 90%;
+    margin: auto;
+    height: 400px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.3rem;
+}
+
+.backgroundcontacto{
+    background-image: url(./../assets/images/dsa.PNG);
+    background-position: center;
+    width: 90%;
+    margin: auto;
+    height: 400px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.3rem;
+}
+
+.tarjetas{
+    width: 90%;
+    margin: auto;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tarjetas .imgtarjeta{
+    height: 21.875rem;
+    width: 100%;
+}
+
+.historia, .info, .ubicaciones, .formulariounirse{
+    width: 90%;
+    margin: auto;
+    margin-top: 3.5rem;
+}
+
+.historia .imghisto{
+    width: 100%;
+    height: 375px;
+}
+
+.info ul{
+    margin-bottom: 4rem;
+}
+
+.info ul li{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    list-style-type: '🐾'; 
+    padding-left: 1rem;
+}
+
+.pacientes{
+    width: 90%;
+    margin: auto;
+}
+
+.pacientes .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.pacientes .col-lg-4 .borroso{
+    backdrop-filter: blur(5px);
+}
+
+.pacientes .col-lg-4 .borroso h3 {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.pacientes .col-lg-4 .borroso p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+.imgcardshop{
+    height: 350px;
+    width: 100%;
+}
+
+form div {
+    margin-top: 15px;
+    display: grid;
+    justify-content: center;
+}
+
+.ubicaciones .tarjetasuc{
+    border: 2px solid rgba(210, 216, 210, 0.874);
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin-top: 3.5rem;
+}
+
+.ubicaciones .tarjetasuc ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.ubicaciones .tarjetasuc ul li{
+    margin-bottom: 1rem;
+}
+.ubicaciones .tarjetasuc ul li .ri-map-pin-2-fill{
+    color: rgba(50, 239, 63, 0.874);
+}   
+
+.ubicaciones .tarjetasuc ul li .ri-phone-fill{
+    color: rgba(50, 239, 63, 0.874);
+}
+
+.ubicaciones .tarjetasuc .sucursal{
+    display: flex;
+}
+
+.ubicaciones .tarjetasuc .sucursal h3{
+    margin-top: 2.1rem
+}
+
+@media screen and (max-width: 1024px) {
+    .contenedorinicial{
+        width: 100%;
+        margin: 0;
+    }
+
+    .backgroundindex, .backgroundnosotros, .backgroundservicios, .backgroundshop, .backgroundunirse, .backgroundcontacto{
+        width: 100%;
+        margin: 0;
+    }
+
+    .historia{
+        width: 100%;
+        margin: 0;
+    }
+
+    .historia img{
+        width: 100%;
+        margin: 0;
+    }
+
+    .tarjetas{
+        margin-top: auto;
+        margin-bottom: 2.5rem;
+    }
+
+    .divind{
+        padding-top: 0;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .redes{
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .bienvenida h2{
+        padding-top: 3.5rem;
+        text-align: center;
+    }
+
+}
