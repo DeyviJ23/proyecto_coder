@@ -23,17 +23,20 @@ body {
   margin-top: 4rem;
   flex-wrap: wrap;
   justify-content: center; }
-  .tarjetas .card:hover {
-    transition: 1s;
-    border: 2px solid white;
-    box-shadow: inset 0 0 10px rgba(157, 244, 163, 0.874), 0 0 30px rgba(157, 244, 163, 0.874); }
-  .tarjetas .card .imgtarjeta {
-    height: 21.875rem;
-    width: 100%; }
-  .tarjetas .card .card-body {
-    margin: auto; }
-    .tarjetas .card .card-body h3 {
-      font-size: 1.25rem; }
+  .tarjetas a {
+    text-decoration: none;
+    color: #000; }
+    .tarjetas a .card:hover {
+      transition: 1s;
+      border: 2px solid white;
+      box-shadow: inset 0 0 10px rgba(157, 244, 163, 0.874), 0 0 30px rgba(157, 244, 163, 0.874); }
+    .tarjetas a .card .imgtarjeta {
+      height: 21.875rem;
+      width: 100%; }
+    .tarjetas a .card .card-body {
+      margin: auto; }
+      .tarjetas a .card .card-body h3 {
+        font-size: 1.25rem; }
 
 .historia {
   width: 90%;
@@ -100,6 +103,11 @@ form div {
   margin-top: 15px;
   display: grid;
   justify-content: center; }
+  form div .inputprop {
+    border-radius: 5px;
+    height: 2.5rem;
+    width: 20rem;
+    background-color: rgba(157, 244, 163, 0.874); }
 
 .btn-primary {
   color: #fff;
@@ -120,6 +128,16 @@ form div {
     justify-content: center; }
     .divind .bienvenida h2 {
       padding-top: 5rem; }
+
+.divind2 {
+  padding-top: 1.5rem;
+  width: 90%;
+  margin: auto; }
+  .divind2 .error {
+    text-align: center; }
+
+p, li {
+  font-size: 1.17rem; }
 
 .formImagenBs {
   background-image: url(../assets/images/clinica_540x.webp);
@@ -157,7 +175,7 @@ form div {
           color: rgba(50, 239, 63, 0.874); }
 
 .backgroundindex {
-  background-image: url(./../assets/images/fondo1.png);
+  background-image: url(./../assets/images/fondo1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 2rem;
@@ -188,7 +206,7 @@ form div {
   padding: 25px; }
 
 .backgroundshop {
-  background-image: url(./../assets/images/shop-transformed.png);
+  background-image: url(./../assets/images/shop-transformed.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 2rem;
@@ -199,7 +217,7 @@ form div {
   background-position: center; }
 
 .backgroundunirse {
-  background-image: url(./../assets/images/unirse.PNG);
+  background-image: url(./../assets/images/backunirse.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 2rem;
@@ -209,7 +227,7 @@ form div {
   padding: 25px; }
 
 .backgroundcontacto {
-  background-image: url(./../assets/images/dsa.PNG);
+  background-image: url(./../assets/images/dsa.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 2rem;
@@ -311,4 +329,6 @@ form div {
         text-align: center; }
   .redes {
     width: 100%;
-    margin-top: 2rem; } }
+    margin-top: 2rem; }
+  p, li {
+    font-size: 1rem; } }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Munay - Unirse</title>
+    <title>Clinica Veterinaria Munay | Unirse</title>
     <link rel="apple-touch-icon" sizes="57x57" href="./../assets/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./../assets/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="./../assets/favicon/apple-icon-72x72.png">
@@ -23,11 +23,12 @@
     <meta name="msapplication-TileImage" content="./../assets/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="./../css/bootstrap.min.css">
     <link rel="stylesheet" href="./../css/estilos.css">
     <meta name="keywords" content="inscripción, club, membresía, miembros">
-    <meta name="description" content="Unete a la familia Munay para acceder a todo el catalogo beneficios que ofrecemos.">
+    <meta name="description" content="Te invitamos a unirte a nuestra familia Munay para poder acceder a todo el catálogo de beneficios que podemos ofrecerte.">
 </head>
 <body>
 
@@ -75,7 +76,7 @@
               Te invitamos a formar parte de nuestra familia
             </h2>
             <p>
-              Únete a la familia convirtiendote en un miembro oficial de Munay con un pago mensual, y obtendras todos los
+              Únete a la familia convirtiéndote en un miembro oficial de Munay con un pago mensual, y obtendrás todos los
               beneficios que podemos ofrecerte.
             </p>
           </section>
@@ -85,15 +86,15 @@
                 <div class="col-8 col-sm-6 col-md-4 col-lg-3 formImagenBs">
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-center py-3">
-                    <form class="col-12">
+                    <form class="col-12" action="./error.html">
                         <div class="form-floating mb-3">
-                            <input type="text" placeholder="Nombre" required>
+                            <input class="inputprop" type="text" placeholder="Nombre" required>
                         </div>
                         <div class="form-floating mb-3">
-                            <input type="text" placeholder="Nombre Mascota" required>
+                            <input class="inputprop" type="text" placeholder="Nombre Mascota" required>
                         </div>
                         <div class="form-floating mb-3">
-                            <input type="email" placeholder="Correo" required>
+                            <input class="inputprop" type="email" placeholder="Correo" required>
                         </div>
                         <div class="form mb-3">
                             <select class="form-select form-control" aria-label="Default select example required">
@@ -119,15 +120,15 @@
         </section>
 
         <div class="container-fluid d-flex justify-content-center">
-            <section class="card border-secondary mb-3 col-12 col-sm-9 wow fadeInUp">
+            <section data-aos="fade-up" data-aos-easing="ease-in-sine" class="card border-secondary mb-3 col-12 col-sm-9">
                 <div class="card-header pt-3">
                     <h3>*Recordatorio</h3>
                 </div>
                 <div class="card-body text-secondary">
                     <p class="card-text">
-                        Recuerda que al formar parte de la familia Munay le brindas a tu mascota un servicio de atencion 24/7 tanto presencialmente como virtualmente
-                        con los mejores especialistas, tambien recuerda que ayudas a animales sin hogar, ya que, un porcentaje de los fondos recaudados mensualmente
-                        son destinados a fundaciones y albergues de animales.
+                        Recuerda que al formar parte de la familia Munay le das el acceso a tu mascota a un servicio de atención 24/7 tanto presencialmente como virtualmente
+                        con los mejores especialistas, también recuerda que ayudas a animales sin hogar, ya que, un porcentaje de los fondos recaudados mensualmente
+                        son destinados a diferentes fundaciones y albergues de animales.
                 </div>
             </section>                    
         </div>
@@ -153,6 +154,10 @@
         </section>
         
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="./../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

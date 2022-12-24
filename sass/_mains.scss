@@ -1,18 +1,22 @@
 .tarjetas{
     @include tam-esp-tarj(auto);
     @include proptarj (wrap);
-    .card{
-        &:hover {
-        @include prophovtarj(2px solid white);
-        }
-        .imgtarjeta{
-        height: 21.875rem;
-        width: $espaciotot;
-        }
-        .card-body{
-            margin: auto;
-            h3{
-                font-size: 1.25rem;
+    a{
+        text-decoration: none;
+        color: #000;
+        .card{
+            &:hover {
+            @include prophovtarj(2px solid white);
+            }
+            .imgtarjeta{
+            height: 21.875rem;
+            width: $espaciotot;
+            }
+            .card-body{
+                margin: auto;
+                h3{
+                    font-size: 1.25rem;
+                }
             }
         }
     }
@@ -98,6 +102,12 @@ form {
         margin-top: 15px;
         display: grid;
         justify-content: $centrado;
+        .inputprop{
+            border-radius: 5px;
+            height: 2.5rem;
+            width: 20rem;
+            background-color: $colorbord;
+        }
         
     }
 }
@@ -125,6 +135,19 @@ form {
             padding-top: 5rem;
         }
     }
+}
+
+.divind2{
+    padding-top: 1.5rem;
+    width: $espaciomax;
+    margin: auto;
+    .error{
+        text-align: center;
+    }
+}
+
+p, li{
+    font-size: 1.17rem;
 }
 
 .formImagenBs {
@@ -173,7 +196,7 @@ form {
 }
 
 .backgroundindex{
-    @include propback(url(./../assets/images/fondo1.png));
+    @include propback(url(./../assets/images/fondo1.jpg));
     @include tam-esp-back(auto, 25rem);
 }
 
@@ -189,18 +212,18 @@ form {
 }
 
 .backgroundshop{
-    @include propback(url(./../assets/images/shop-transformed.png));
+    @include propback(url(./../assets/images/shop-transformed.jpg));
     @include tam-esp-back(auto, 25rem);
     background-position: $centrado;
 }
 
 .backgroundunirse{
-    @include propback(url(./../assets/images/unirse.PNG));
+    @include propback(url(./../assets/images/backunirse.jpg));
     @include tam-esp-back(auto, 25rem);
 }
 
 .backgroundcontacto{
-    @include propback(url(./../assets/images/dsa.PNG));
+    @include propback(url(./../assets/images/dsa.jpg));
     @include tam-esp-back(auto, 25rem);
     background-position: $centrado;
 }
